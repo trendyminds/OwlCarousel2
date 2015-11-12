@@ -701,7 +701,7 @@
 			return;
 		}
 
-		if ($.support.transform) {
+		if ($.support.transform3d) {
 			stage = this.$stage.css('transform').replace(/.*\(|\)| /g, '').split(',');
 			stage = {
 				x: stage[stage.length === 16 ? 12 : 4],
